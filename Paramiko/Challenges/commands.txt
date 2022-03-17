@@ -1,0 +1,10 @@
+enable
+cisco
+conf t
+router rip
+version 2
+net 10.0.0.0
+end
+term len 0
+sh ip protocols
+write
