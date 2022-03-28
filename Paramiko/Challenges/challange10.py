@@ -8,7 +8,6 @@ import paramiko, time, getpass
 #Process Command Text File
 with open('Paramiko/Challenges/commands.txt', 'r') as commandsFile:
   commandsList = commandsFile.readlines()
-  print(commandsList)
 
 #Router SSH Connection Initialization
 sshClient = paramiko.SSHClient()
